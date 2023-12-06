@@ -133,4 +133,4 @@ procName - имя функции или переменной.
 - regsvr32 /i /u    - DllInstall(false) [ok]-> DllUnregisterServer
 - regsvr32 /i /u /n - DllInstall(false)
 
-Источники: Э. Таненбаум - Архитекрура Компьютера, Pavel Yosifovich - Windows 10 System Programming, Part 1/2, конспект Смелова (я тогда его писал...), stackoverflow, Е. Понасенков "Первая научная история войны 1812 года", bing.xd
+Источники: Э. Таненбаум - Архитекрура Компьютера, Pavel Yosifovich - Windows 10 System Programming, Part 1/2, конспект Смелова (я тогда его писал...), stackoverflow, bing
