@@ -53,7 +53,7 @@
 13. Поясните понятие «Windows-сервис».
 - Процесс (обычно фоновый), выполняющий служебные функции. Программа, которая запускается при загрузке ОС.
 14. Из каких компонентов состоит Шиндовс-сервис.
-- ```int main(int argc, char *argv)```: главная задача - запуск диспетчера сервиса (потока, который управляет сервисом). ```VOID WINAPI ServiceMain(DWORD dwArgc, LPTSTR *lpszArgv)```, ```VOID WINAPI ServiceCtrlHandler(DWORD dwControl)``` - обработчик запросов диспетчера серваса (должен быть вызван в течение 30мс с момента запуска).
+- ```int main(int argc, char *argv)```: главная задача - запуск диспетчера сервиса (потока, который управляет сервисом). ```VOID WINAPI ServiceMain(DWORD dwArgc, LPTSTR *lpszArgv)```, ```VOID WINAPI ServiceCtrlHandler(DWORD dwControl)``` - обработчик запросов диспетчера серваса (должен быть вызван в течение 30с с момента запуска).
 15. Где хранится информация о Windows-сервисах.
 - В реестре, services.msc, control panel, service constrol manager(?)
 16. Для каких целей применяется Windows-сервис.
